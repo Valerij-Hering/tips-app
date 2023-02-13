@@ -27,7 +27,7 @@ function App() {
         <i className='fa-envelope	fas icon'></i>
         <p>{tips}</p>
         <div className='check'>
-          <i class="fi fi-bs-check"></i>
+          <i className="fi fi-bs-check"></i>
         </div>
       </div>
     </div>
