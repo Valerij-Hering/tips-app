@@ -26,8 +26,10 @@ function App() {
       <div className='box-par'>
         <i className='fa-envelope	fas icon'></i>
         <p>{tips}</p>
-        <div className='check'>
-          <i className="fi fi-bs-check"></i>
+        <div className='checkbox'>
+          <div className='check'>
+            <i className="fi fi-bs-check"></i>
+          </div>
         </div>
       </div>
     </div>
