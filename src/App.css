@@ -10,7 +10,6 @@ body {
 }
 
 .App {
-  position: relative;
   margin: 10px auto;
   padding: 25px 0px;
   width: 460px;
@@ -51,6 +50,8 @@ h3 {
   transform: scale(.985);
 }
 
+
+
 .box-par {
   padding: 10px 20px;
   width: 80%;
@@ -83,10 +84,6 @@ p {
   color: white;
   background-color: #725efe;
   border-radius: 8px;
-}
-
-.checkbox {
-  position: relative;
 }
 
 .check {

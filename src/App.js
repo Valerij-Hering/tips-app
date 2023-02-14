@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import girl from './girl.png';
+import 'animate.css';
 
 
 function App() {
@@ -23,14 +24,13 @@ function App() {
     {/* <div className='fon'></div> */}
     <div className='container'>
       <img className='girl-img' src={girl} alt="girl"/>
-      <div className='box-par'>
+      <div className='animate__animated animate__bounceIn box-par'>
         <i className='fa-envelope	fas icon'></i>
         <p>{tips}</p>
-        <div className='checkbox'>
+
           <div className='check'>
             <i className="fi fi-bs-check"></i>
           </div>
-        </div>
       </div>
     </div>
     <h3>Tips For Boredom</h3>
