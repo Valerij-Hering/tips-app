@@ -34,7 +34,7 @@ function App() {
       </div>
     </div>
     <h3>Tips For Boredom</h3>
-    <button className='btn' onClick={fetchTips}>New Tip</button>
+    <button  data-anijs="if:mouseover, do: bounce animated" className='btn' onClick={() => window.location.reload()}>New Tip</button>
     </div>
   );
 }
